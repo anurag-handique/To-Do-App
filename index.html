@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="todo-app">
+        <h2>To-Do List <img src="images/main.png" alt="image"></h2>
+        <div class="count-container">
+            <div class="count-section" id="clicked-count">
+                <h3>Tasks Done:</h3>
+                <p>0</p>
+            </div>
+
+            <div class="count-section" id="unclicked-count">
+                <h3>Tasks Undone :</h3>
+                <p>0</p>
+            </div>
+        </div>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Type your goals here">
+            <button id="add-button">Add</button>
+        </div>
+        <ul id="list-container">
+            <!-- Tasks will be added dynamically here -->
+        </ul>
+    </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
